@@ -1,0 +1,293 @@
+					<!DOCTYPE html>
+					<html lang="en">
+					<head>
+					  <title>Personal</title>
+					  <link rel="stylesheet" href="css/main.css">
+					  <style>
+						body {
+						  font-family: Arial, sans-serif;
+						  margin: 0;
+						  padding: 0;
+						  background-color: #f5f5f5;
+						}
+					
+						.header {
+						  background-color: #333;
+						  color: #fff;
+						  text-align: center;
+						  padding: 15px 0;
+						}
+					
+						.navigation {
+						  display: flex;
+						  justify-content: space-between;
+						  align-items: center;
+						}
+					
+						.navigation__list {
+						  list-style: none;
+						  display: flex;
+						  gap: 20px;
+						}
+					
+						.navigation__list a {
+						  text-decoration: none;
+						  color: #fff;
+						  font-weight: bold;
+						  font-size: 16px;
+						}
+					
+						.about__heading,
+						.academic__heading,
+						.projects__heading,
+						.experiences__heading,
+						.contact__heading {
+						  color: #333;
+						  text-align: center;
+						}
+					
+						.about,
+						.academic,
+						.projects,
+						.experiences,
+						.contact {
+						  background-color: #fff;
+						  padding: 20px;
+						  margin: 20px;
+						  border-radius: 8px;
+						  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+						}
+					
+						.project,
+						.academic-entry {
+						  margin-bottom: 20px;
+						}
+					
+						.project__title,
+						.academic-entry__title,
+						.experiences__heading,
+						.contact__heading {
+						  color: #333;
+						}
+					
+						.project__period,
+						.academic-entry__period {
+						  font-style: italic;
+						  color: #555;
+						}
+					
+						.project__keywords,
+						.academic-entry__location {
+						  color: #777;
+						}
+					
+						.footer {
+						  background-color: #333;
+						  color: #fff;
+						  text-align: center;
+						  padding: 15px 0;
+						  bottom: 0;
+						  width: 100%;
+						}
+					
+						.contact__wrapper {
+						  display: flex;
+						  justify-content: space-between;
+						  align-items: center;
+						}
+					
+						.contact__visual {
+						  flex-basis: 30%;
+						}
+					
+						.contact__visual img {
+						  max-width: 100%;
+						  height: auto;
+						  border-radius: 8px;
+						  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+						}
+					
+						.contact__form {
+						  flex-basis: 65%;
+						}
+					
+						.contact__form-el {
+						  width: 100%;
+						  padding: 10px;
+						  margin-bottom: 15px;
+						  border: 1px solid #ddd;
+						  border-radius: 4px;
+						}
+					
+						.contact__form-el--submit {
+						  background-color: #333;
+						  color: #fff;
+						  cursor: pointer;
+						}
+					  </style>
+					</head>
+					<body>
+					
+					
+					  <!-- SECTION: Intro -->
+					  <header class="header">
+						<!-- SECTION: Navigation -->
+						<div id="top" class="navigation">
+						  <div class="navigation__wrapper wrapper--large">
+							<a class="navigation__logo logo" href="index.html">Logo</a>
+							<nav class="navigation__container">
+							  <ul class="navigation__list">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="academics.html">Academics</a></li>
+								<li><a href="experiences.html">Experiences</a></li>
+								<li><a href="projects.html">Projects</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							  </ul>
+							</nav>
+						  </div>
+						</div>
+						<!-- END SECTION: Navigation -->
+					  </header>
+					  <!-- END SECTION: Intro -->
+					  <main role="main">
+						<!-- SECTION: About -->
+						<section class="about">
+							<table>
+							  <tr>
+								<td>
+								<img src="C:\Users\fadit\OneDrive\Desktop\tp fedi\profile0-picture.jpg" width="150" height="200" alt="Profile Picture">
+								</td>
+								<td>
+								<section class="about">
+								  <h1 class="about__heading title">About Me</h1>
+								  <div class="about__content wrapper--large">
+								  <p>Je m'appelle Fedi Tarkhani, j'ai 23 ans et je suis actuellement étudiant en troisième année d'ingénierie informatique à ESPRIT. J'ai obtenu ma licence en Génie Électrique et Automatique (EEA) avec une spécialisation en systèmes embarqués, avec la mention BIEN de l'ISIMM. En plus de mes études, je suis également passionné par la photographie. Capturer des moments et raconter des histoires à travers l'objectif n'est pas seulement un passe-temps, mais aussi une manière pour moi d'explorer le monde sous un angle unique. Je suis dédié à la fois à mes études et à mes activités créatives, cherchant à fusionner les compétences techniques acquises dans mon programme d'ingénierie avec la vision artistique développée à travers ma photographie.</p>
+								  </div>    
+								</section>
+								</td>
+							  </tr>
+							  </table>
+						<!-- END SECTION: About -->
+						
+						<!-- SECTION: Academic Background -->
+						<section id="academic" class="academic">
+						  <h2 class="academic__heading title">Academic Background</h2>
+						  
+						  <!-- BAC Technique -->
+						  <div class="academic-entry">
+							<h3 class="academic-entry__title">BAC Technique</h3>
+							<p class="academic-entry__period">Période : 2019</p>
+							<p class="academic-entry__location">Lieu : Lycée 9 Avril, Jendouba</p>
+						  </div>
+						  
+						  <!-- Licence EEA -->
+						  <div class="academic-entry">
+							<h3 class="academic-entry__title">Licence EEA</h3>
+							<p class="academic-entry__period">Période : Septembre 2019 - Juillet 2023</p>
+							<p class="academic-entry__location">Place : ISIMM</p>
+						  </div>
+						  
+						  <!-- 1er Ingénierie Informatique -->
+						  <div class="academic-entry">
+							<h3 class="academic-entry__title">1er Ingénierie Informatique</h3>
+							<p class="academic-entry__period">À partir de septembre 2023</p>
+							<p class="academic-entry__location">Place : ESPRIT</p>
+						  </div>
+						  
+						</section>
+						<!-- END SECTION: Academic Background -->
+						
+						<!-- SECTION: Projects -->
+						<section id="projects" class="projects">
+						  <h2 class="projects__heading title">Lastest Projects</h2>
+						  
+						  <!-- Projet 1 : Supervision Intelligente en Agriculture -->
+						  <div class="project">
+							<h3 class="project__title">Supervision Intelligente en Agriculture</h3>
+							<p class="project__description">Conception et réalisation d’un système de supervision agricole. Contrôle local par une automate programmable et à distance via une application mobile Blynk IoT, une page web, et un appel téléphonique GSM. Utilisation de la carte ESP32 et de la technologie LoRa pour les échanges de commandes avec les pompes sur le terrain.</p>
+							<p class="project__period">Période :fev-juil 2023</p>
+							<p class="project__keywords">Mots-clés : ESP32, Automate Programmable, IHM, Blynk IoT, LoRa, GSM, Agriculture Intelligente</p>
+						  </div>
+						  <!-- Projet 2 : PFA Smart House -->
+						  <div class="project">
+							<h3 class="project__title">Projet PFA Smart House</h3>
+							<p class="project__description">Conception et réalisation d'un système de maison intelligente (PFA) impliquant l'utilisation de l'ESP32, d'un module relais SPDT 5V à 4 canaux, et d'interrupteurs manuels ou boutons-poussoirs. Projet réalisé à la fin de 2022.</p>
+							<p class="project__period">Période : Fin 2022</p>
+							<p class="project__keywords">Mots-clés : ESP32, Module relais SPDT 5V à 4 canaux, Interrupteurs manuels ou boutons-poussoirs</p>
+						  </div>
+						  
+						  <!-- Projet 3 : Suiveur de ligne -->
+						  <div class="project">
+							<h3 class="project__title">Suiveur de ligne</h3>
+							<p class="project__description">Réalisation d'un suiveur de ligne utilisant Arduino Uno, un Shield moteur, un moteur, et un capteur TCRT5000. Projet réalisé en 2022.</p>
+							<p class="project__period">Période : 2022</p>
+							<p class="project__keywords">Mots-clés : Arduino Uno, Shield moteur, moteur, capteur TCRT5000</p>
+						  </div>
+						  
+						  <!-- Projet 4 : Éviteur d'obstacles -->
+						  <div class="project">
+							<h3 class="project__title">Éviteur d'obstacles</h3>
+							<p class="project__description">Réalisation d'un éviteur d'obstacles en 2022 utilisant Arduino Uno, un servomoteur, et un capteur ultrason HCSR04.</p>
+							<p class="project__period">Période : 2022</p>
+							<p class="project__keywords">Mots-clés : Arduino Uno, Servomoteur, Ultrason HCSR04</p>
+						  </div>
+						  
+						</section>
+						<!-- END SECTION: Projects -->
+						
+						<section class="experiences">
+						  <!-- Ajoutez ici des détails sur vos expériences associatives -->
+						  <h1 class="experiences__heading title">Expériences associatives</h1>
+						  <!-- Experience 1: IEEE ISIMM Student Branch - CS Chapter -->
+						  <h4 class="experiences__heading title">IEEE ISIMM Student Branch - CS Chapter</h4>
+						  <p>En tant que Responsable Marketing puis Chairman au CS Chapter de l'IEEE à l'ISIMM SB, j'ai dirigé la promotion des activités du chapitre, développé des stratégies de communication et assuré le succès de projets.</p>
+						  
+						  <!-- Experience 2: We Are Mon
+					
+								<!-- Experience 2: We Are Monastir -->
+								<h4 class="experiences__heading title">We Are Monastir</h4>
+								<p>En tant que Responsable Marketing, j'ai contribué au succès des événements de 'We Are Monastir' en élaborant des stratégies de promotion et en perfectionnant mes compétences en gestion de projet et en communication. Ces expériences m'ont enrichi sur le plan du leadership, de la collaboration et de l'adaptabilité.</p>
+							 <!-- Ajoutez ici des détails sur vos expériences professionnels -->
+							 <h1 class="experiences__heading title">Expériences professionnelles</h1>
+							 <!-- Experience 1: BTA Best Technology Anywhere (Stage de PFE en Systèmes Embarqués) -->
+							 <h4 class="experiences__heading title">BTA Best Technology Anywhere (Stage de PFE en Systèmes Embarqués)</h4>
+							 <p>Mon stage de Projet de Fin d'Études chez BTA à Jammel, Monastir, a été axé sur les systèmes embarqués. J'ai appliqué mes connaissances académiques à des projets concrets, développant ainsi mes compétences techniques et gagnant une compréhension pratique des concepts informatiques.</p>
+						  
+							  </section>
+							  <!-- END SECTION: Experiences -->
+					
+							<!-- END SECTION: Work -->
+							
+							<!-- SECTION: Contact -->
+							<section id="contact" class="contact">
+								<h1 class="contact__heading title">Contact Me</h1>
+								<div class="contact__wrapper wrapper--large">
+									<div class="contact__visual">
+										<img src="C:\Users\fadit\OneDrive\Desktop\tp fedi\contact0-visual.jpg"height="200" width="150">
+									</div>
+									<!-- Improved form setup: formspree.io -->
+									<form class="contact__form" action="https://formspree.io/YOUR_EMAIL_HERE" method="POST">
+										<input class="contact__form-el contact__form-el--name" type="text" name="name" placeholder="Your Name" spellcheck="false" required>
+										<input class="contact__form-el contact__form-el--email" type="email" name="_replyto" placeholder="Your Email" spellcheck="false" required>
+										<textarea class="contact__form-el contact__form-el--message" name="message" placeholder="Your Message" required></textarea>
+										<input class="contact__form-el contact__form-el--submit" type="submit" value="Send">
+									</form>
+								</div>
+							</section>
+							<!-- END SECTION: Contact -->
+						</main>
+						<!-- SECTION: Footer -->
+						<footer class="footer">
+							<div class="footer__wrapper wrapper--large">
+								<p class="footer__copyright no-margin">&copy; 2023 -Esprit</p>
+								
+							</div>
+						</footer>
+						<!-- END SECTION: Footer -->
+					
+						<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+						<script src="js/functions-min.js"></script>
+					
+					</body>
+					</html>
