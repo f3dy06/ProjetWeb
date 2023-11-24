@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Projects - Personal</title>
+  <!-- Inclure le CSS directement dans le fichier HTML -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    .navigation {
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+    }
+
+    .navigation__list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .navigation__list li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    .navigation__list li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .main {
+      padding: 20px;
+    }
+
+    .projects__heading {
+      color: #333;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .project {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    .project__title {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .project__description,
+    .project__period,
+    .project__keywords {
+      color: #555;
+    }
+
+    .footer {
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SECTION: Navigation -->
+  <div id="top" class="navigation">
+    <div class="navigation__wrapper wrapper--large">
+      <a class="navigation__logo logo" href="index.html">Logo</a>
+      <nav class="navigation__container">
+        <ul class="navigation__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="experiences.html">Experiences</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!-- END SECTION: Navigation -->
+
+  <main role="main" class="main">
+   
+    <!-- SECTION: Projects -->
+    <section id="projects" class="projects">
+      <h2 class="projects__heading title">Projects</h2>
+
+      <!-- Projet 1 : Supervision Intelligente en Agriculture -->
+        <!-- Projet 1 : Supervision Intelligente en Agriculture -->
+                <div class="project">
+                  <h3 class="project__title">Supervision Intelligente en Agriculture</h3>
+                  <p class="project__description">Conception et réalisation d’un système de supervision agricole. Contrôle local par une automate programmable et à distance via une application mobile Blynk IoT, une page web, et un appel téléphonique GSM. Utilisation de la carte ESP32 et de la technologie LoRa pour les échanges de commandes avec les pompes sur le terrain.</p>
+                  <p class="project__period">Période : fev-juil 2023</p>
+                  <p class="project__keywords">Mots-clés : ESP32, Automate Programmable, IHM, Blynk IoT, LoRa, GSM, Agriculture Intelligente</p>
+                </div>
+          
+                <!-- Projet 2 : PFA Smart House -->
+                <div class="project">
+                  <h3 class="project__title">Projet PFA Smart House</h3>
+                  <p class="project__description">Conception et réalisation d'un système de maison intelligente (PFA) impliquant l'utilisation de l'ESP32, d'un module relais SPDT 5V à 4 canaux, et d'interrupteurs manuels ou boutons-poussoirs. Projet réalisé à la fin de 2022.</p>
+                  <p class="project__period">Période : Fin 2022</p>
+                  <p class="project__keywords">Mots-clés : ESP32, Module relais SPDT 5V à 4 canaux, Interrupteurs manuels ou boutons-poussoirs</p>
+                </div>
+          
+                <!-- Projet 3 : Suiveur de ligne -->
+                <div class="project">
+                  <h3 class="project__title">Suiveur de ligne</h3>
+                  <p class="project__description">Réalisation d'un suiveur de ligne utilisant Arduino Uno, un Shield moteur, un moteur, et un capteur TCRT5000. Projet réalisé en 2022.</p>
+                  <p class="project__period">Période : 2022</p>
+                  <p class="project__keywords">Mots-clés : Arduino Uno, Shield moteur, moteur, capteur TCRT5000</p>
+                </div>
+          
+                <!-- Projet 4 : Éviteur d'obstacles -->
+                <div class="project">
+                  <h3 class="project__title">Éviteur d'obstacles</h3>
+                  <p class="project__description">Réalisation d'un éviteur d'obstacles en 2022 utilisant Arduino Uno, un servomoteur, et un capteur ultrason HCSR04.</p>
+                  <p class="project__period">Période : 2022</p>
+                  <p class="project__keywords">Mots-clés : Arduino Uno, Servomoteur, Ultrason HCSR04</p>
+                </div>
+          
+              </section>
+              <!-- END SECTION: Projects -->
+          
+            </main>
+          
+            <!-- SECTION: Footer -->
+            <footer class="footer">
+              <div class="footer__wrapper wrapper--large">
+                <p class="footer__copyright no-margin">&copy; 2023 - Esprit</p>
+              </div>
+            </footer>
+            <!-- END SECTION: Footer -->
+          
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+            <script src="js/functions-min.js"></script>
+          
+          </body>
+          </html>

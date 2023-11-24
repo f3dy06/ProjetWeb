@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About - Personal</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+      color: #343a40;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navigation {
+      background-color: #343a40;
+      color: white;
+      padding: 10px 0;
+    }
+
+    .navigation__list {
+      list-style-type: none;
+    }
+
+    .navigation__list li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    .navigation__list a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    .navigation__list a:hover {
+      border-bottom: 2px solid #ffffff;
+    }
+
+    .main {
+      padding: 20px;
+    }
+
+    .about__heading {
+      color: #343a40;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .about__content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .about__image {
+      flex-basis: 30%;
+      text-align: center;
+    }
+
+    .about__image img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .about__text {
+      flex-basis: 65%;
+      max-width: 600px;
+      margin-left: 20px;
+    }
+
+    .about__text p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SECTION: Navigation -->
+  <div id="top" class="navigation">
+    <div class="navigation__wrapper wrapper--large">
+      <a class="navigation__logo logo" href="index.html">Logo</a>
+      <nav class="navigation__container">
+        <ul class="navigation__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="experiences.html">Experiences</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!-- END SECTION: Navigation -->
+
+  <main role="main">
+    <!-- SECTION: About -->
+    <section class="about">
+      <h1 class="about__heading title">About Me</h1>
+      <div class="about__content wrapper--large">
+        <div class="about__image">
+          <img src="img/profile0-picture.jpg" width="150" height="200" alt="Profile Picture">
+        </div>
+        <div class="about__text">
+          <p>Bonjour ! Je suis Fedi Tarkhani, un passionné d'informatique âgé de 23 ans. Actuellement étudiant en troisième année d'ingénierie informatique à ESPRIT, je possède une licence en Génie Électrique et Automatique (EEA) obtenue avec mention BIEN de l'ISIMM.</p>
+          <p>Ma curiosité pour la technologie va de pair avec ma passion pour la photographie. Capturer des moments et raconter des histoires à travers l'objectif est pour moi un moyen unique d'explorer le monde. Je m'efforce de fusionner mes compétences techniques acquises dans mon programme d'ingénierie avec la vision artistique développée à travers ma photographie.</p>
+          <p>Que ce soit en codant des solutions innovantes ou en capturant l'instant parfait, je suis constamment à la recherche de nouvelles façons de m'exprimer et de contribuer au monde qui m'entoure.</p>
+        </div>
+      </div>
+    </section>
+    <!-- END SECTION: About -->
+  </main>
+
+  <!-- SECTION: Footer -->
+  <footer class="footer">
+    <div class="footer__wrapper wrapper--large">
+      <p class="footer__copyright no-margin">&copy; 2023 - Esprit</p>
+    </div>
+  </footer>
+  <!-- END SECTION: Footer -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="js/functions-min.js"></script>
+
+</body>
+</html>
