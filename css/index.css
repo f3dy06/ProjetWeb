@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navigation__list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navigation__list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .about__heading,
+  .academic__heading,
+  .projects__heading,
+  .experiences__heading,
+  .contact__heading {
+    color: #333;
+    text-align: center;
+  }
+  
+  .about,
+  .academic,
+  .projects,
+  .experiences,
+  .contact {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project,
+  .academic-entry {
+    margin-bottom: 20px;
+  }
+  
+  .project__title,
+  .academic-entry__title,
+  .experiences__heading,
+  .contact__heading {
+    color: #333;
+  }
+  
+  .project__period,
+  .academic-entry__period {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .project__keywords,
+  .academic-entry__location {
+    color: #777;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .contact__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact__visual {
+    flex-basis: 30%;
+  }
+  
+  .contact__visual img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact__form {
+    flex-basis: 65%;
+  }
+  
+  .contact__form-el {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .contact__form-el--submit {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
