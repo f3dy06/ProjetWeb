@@ -32,16 +32,24 @@
             <h2 class="contact__heading title">Contact Me</h2>
             <div class="contact__wrapper wrapper--large">
                 <div class="contact__form">
-                    <form action="https://formspree.io/votre-email" method="POST" id="contactForm">
-                        <input class="contact__form-el contact__form-el--name" type="text" name="name" placeholder="Your Name" spellcheck="false">
-                        <input class="contact__form-el contact__form-el--email" type="email" name="_replyto" placeholder="Your Email" spellcheck="false">
-                        <textarea class="contact__form-el contact__form-el--message" name="message" placeholder="Your Message"></textarea>
-                        <input class="contact__form-el contact__form-el--submit" type="submit" value="Send">
+                    <form id="contactForm">
+                        <input class="contact__form-el contact__form-el--name" type="text" name="name"
+                            placeholder="Your Name" spellcheck="false" id="name">
+
+                        <div class="fedi">
+                        </div>
+                        <input class="contact__form-el contact__form-el--email" type="email" name="_replyto"
+                            placeholder="Your Email" spellcheck="false" id="email">
+                        <textarea class="contact__form-el contact__form-el--message" name="message"
+                            placeholder="Your Message"></textarea>
+                        <button class="contact__form-el contact__form-el--submit" type="submit"
+                            onclick="validateForm()">send</button>
                     </form>
                 </div>
                 <div class="contact__visual">
                     <div class="map-container">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.588750343011!2d10.162352315147434!3d36.89911587992357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fbfbbabecdeb59%3A0xc4b1c9619c97d3aa!2sEsprit%20-%20%C3%89cole%20Sup%C3%A9rieure%20Priv%C3%A9e%20d'Ing%C3%A9nierie%20et%20de%20Technologie!5e0!3m2!1sen!2stn!4v1664043374994!5m2!1sen!2stn"
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.588750343011!2d10.162352315147434!3d36.89911587992357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fbfbbabecdeb59%3A0xc4b1c9619c97d3aa!2sEsprit%20-%20%C3%89cole%20Sup%C3%A9rieure%20Priv%C3%A9e%20d'Ing%C3%A9nierie%20et%20de%20Technologie!5e0!3m2!1sen!2stn!4v1664043374994!5m2!1sen!2stn"
                             width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
